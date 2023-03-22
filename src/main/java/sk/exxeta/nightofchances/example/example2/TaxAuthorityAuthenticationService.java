@@ -25,7 +25,7 @@ public class TaxAuthorityAuthenticationService implements AuthenticationService 
     }
 
     @Override
-    public String getTnForPasswordReset(String username){
+    public String getTokenForPasswordReset(String username){
         throw new UnsupportedOperationException("You can not reset your password online," +
                 " you can update your login information at dedicated service stations.");
     }
